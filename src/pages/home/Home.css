@@ -1,0 +1,31 @@
+.vert{
+    color: rgb(204, 204, 236);
+    font-weight: 900;
+}
+.hero-section{
+    height: 90vh;
+    display: flex;
+    background-image: url("home-banner.jpg");
+}
+.hero-text{
+    width: 60%;
+    position: absolute;    
+    top: 10em;
+    left: 7em;
+}
+.hero-text > h2{
+    color: white;
+    font-size: 45px;    
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-text > p{
+    font-size: 23px;
+    font-weight: 400;
+    width: 96%;
+    color: rgb(195, 193, 193);
+    font-family: 'Roboto', sans-serif;
+}
