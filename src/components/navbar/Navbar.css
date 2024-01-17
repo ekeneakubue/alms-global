@@ -1,9 +1,9 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     background-color: rgb(20, 20, 52);
-    /* padding: 1em 3em 0.5em 7em; */
+    padding: 1.5em 4em;
     color: white;
 }
 .logo img{
@@ -40,6 +40,9 @@
 
 
 @media (max-width: 768px) {
+    .navbar{
+        padding: 1em 0.1em;
+    }
     .navbar-links {
         display: none;
         flex-direction: column;

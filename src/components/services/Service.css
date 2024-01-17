@@ -6,19 +6,24 @@
     padding-bottom: 4rem;
     text-align: center;
 }
+.service-col-light{
+    background-color: rgb(228, 228, 238);
+}
 .service-bg-light{
     padding: 1.5rem 2rem;
     height: 10rem;
-    color: rgb(4, 4, 52);
-    background-color: rgb(228, 228, 238);
+    color: rgb(4, 4, 52);    
     font-size: 18px;
     font-weight: 800;
 }
-.service-bg-light:hover{
+.service-col-light:hover{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .service-bg-light > i{
     font-size: 50px;
+}
+.service-col-white{
+    background-color: white;
 }
 .service-bg-white{
     padding: 1.5rem 2rem;
@@ -27,7 +32,7 @@
     font-size: 18px;
     font-weight: 800;
 }
-.service-bg-white:hover{
+.service-col-white:hover{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .service-bg-white > i{
