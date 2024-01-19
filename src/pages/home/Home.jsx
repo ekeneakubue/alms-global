@@ -49,7 +49,7 @@ export default function Home() {
       </div>
       <div className="container">
         <div className="home">          
-          <Services/>
+          {/* <Services/> */}
         </div>
       </div>
     </div>
