@@ -55,6 +55,9 @@
         z-index: 1;
         background-color: rgb(20, 20, 52);
     }
+    .logo > h2{
+        font-size: 18px;
+    }
 
     .navbar-links.active {
         display: flex;
