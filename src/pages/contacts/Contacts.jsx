@@ -45,7 +45,7 @@ export default function Contacts() {
               <h5>Office Address</h5>
               <div className='c-aside'>
                 <i class="bi bi-geo-alt text-danger"></i>
-                <p>50 Crowder Ln Suite 140 Fredricton, E3C OH Canada</p>
+                <p>50 Crowther Ln Suite 140 Fredericton, NB E3C 0J1, Canada</p>
               </div><hr />
 
               <div className='c-aside'>
@@ -55,7 +55,7 @@ export default function Contacts() {
 
               <div className='c-aside'>
                 <i class="bi bi-telephone text-danger"></i>
-                <p>+234 80000000</p>
+                <p>+1 506 897 0363</p>
               </div><hr />
               
             </div>
@@ -90,7 +90,7 @@ export default function Contacts() {
               <h5>Office Address</h5>
               <div className='c-aside'>
                 <i class="bi bi-geo-alt text-danger"></i>
-                <p>50 Crowder Ln Suite 140 Fredricton, E3C OH Canada</p>
+                <p>50 Crowther Ln Suite 140 Fredericton, NB E3C 0J1, Canada</p>
               </div><hr />
 
               <div className='c-aside'>
@@ -100,7 +100,7 @@ export default function Contacts() {
 
               <div className='c-aside'>
                 <i class="bi bi-telephone text-danger"></i>
-                <p>+234 80000000</p>
+                <p>+1 506 897 0363</p>
               </div><hr />
               
             </div>
