@@ -1,8 +1,9 @@
 .service{
     margin: 2rem 0.5rem;
+    box-sizing: border-box;
 }
 .service-title{
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 4rem;
     text-align: center;
 }
@@ -16,6 +17,7 @@
     font-size: 18px;
     font-weight: 800;
 }
+
 .service-col-light:hover{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
@@ -37,4 +39,15 @@
 }
 .service-bg-white > i{
     font-size: 50px;
+}
+
+@media only screen and (max-width: 667px){
+    .service-bg-white{
+        padding: 1% 1%;
+        font-size: 14px;
+    }
+    .service-bg-light{
+        padding: 1%  1%;
+        font-size: 14px;
+    }
 }

@@ -2,9 +2,12 @@
     padding: 1rem 0rem;
     background-color: rgb(240, 237, 237);
 }
+#contact-mobile{
+    display: none;
+}
 
 .c-left{
-    margin: 05.rem 0rem;
+    margin: 0rem 0rem;
     background-color: white;
     padding: 3rem 4rem;
     border-radius: 10px;
@@ -35,8 +38,26 @@
 }
 .banner > span{
     width: 30%;
-    color: rgb(0, 0, 9);
+    color: rgb(200, 200, 225);
     font-size: 30px;
     letter-spacing: 4px;
     padding: 0.5rem 1rem 0.5rem 1rem;    
+}
+
+
+@media only screen and (max-width: 667px){
+    #contact-desktop{
+        display: none;
+    }
+    #contact-mobile{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+        text-align: center;    
+        margin: 0.5rem 1rem 1rem 1rem;    
+    }
+    .c-right > h5{
+        margin: 5rem 0rem 0.5rem 0rem;
+    }
 }

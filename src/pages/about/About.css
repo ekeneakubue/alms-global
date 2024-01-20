@@ -2,6 +2,9 @@
     margin: 2rem 0rem;
     padding: 2em 0em;
 }
+.about-us-mobile{
+    display: none;
+}
 .whyus{
     margin: 2rem 0rem;
     text-align: center;
@@ -10,4 +13,15 @@
 }
 .whyus > i{
     font-size: 80px;    
+}
+
+
+@media only screen and (max-width: 667px){
+    .about-us{
+        display: none;
+    }
+    .about-us-mobile{
+        padding: 0.5rem 1.5rem;
+        display: block;
+    }
 }

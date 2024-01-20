@@ -13,11 +13,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div>      
       <div className="hero-section">
         <div className="hero-text">
-          <h2 data-aos="fade-right" data-aos-duration="2000">Welcome to Global Immigration Consultant Inc</h2>
-          <p data-aos="fade-right" data-aos-duration="2000">
+          <h2 data-aos="fade-up" data-aos-duration="2000">Welcome to Global Immigration Consultant Inc</h2>
+          <p id="p-block"data-aos="fade-up" data-aos-duration="2000">
             Study/Work Permit 
             &nbsp;<span className='vert'>|</span>&nbsp;
             Visitor/Travel Visas 
@@ -45,11 +45,17 @@ export default function Home() {
             <br/>
             H & C Refugee/Protected Person
           </p>
+          <p id="p-none" data-aos="fade-up" data-aos-duration="2000">
+            Study/Work Permit, Visitor/Travel Visas, TFW, IMP, LMIA, PGWP,
+            Express Entry, Provincial Nominee/Skilled Worker/Business Programs,
+            PR, Citizenship, Naturalization, AIP, Family/Spousal Sponsorship,
+            H & C Refugee/Protected Person, etc.
+          </p>
         </div>
       </div>
       <div className="container">
         <div className="home">          
-          {/* <Services/> */}
+          <Services/>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import Service from '../../components/services/Service'
 
 export default function Services() {
   return (
-    <div>
+    <div className='container-fluid'>
         <Service />
     </div>
   )
