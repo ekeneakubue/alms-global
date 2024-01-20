@@ -37,6 +37,10 @@
     text-decoration: none;
     color: white;
 }
+.navbar-links a:hover {
+    text-decoration: none;
+    color: rgb(237, 92, 92);
+}
 
 
 @media (max-width: 768px) {

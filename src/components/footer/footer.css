@@ -12,6 +12,14 @@
     color: rgb(181, 180, 180);
     font-size: 18px;
 }
+a{
+    color: rgb(181, 180, 180);
+}
+a:hover{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
 .f-col .btn{
     margin: 1rem 0rem;
     width: 100px;

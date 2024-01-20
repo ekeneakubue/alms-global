@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 export default function Footer() {
@@ -19,19 +20,19 @@ export default function Footer() {
                     <div className="col-md-3">
                         <div className="f-col">
                             <p className='text-light'>Company</p>
-                            <p>About Us</p>
-                            <p>Our Services</p>
-                            <p>Goals & Vision</p>                      
-                            <p>Partners & Clients</p>
+                            <p><Link to='/'>Home</Link></p>
+                            <p><Link to='/about'>About Us</Link></p>
+                            <p><Link to='/services'>Our Services</Link></p>
+                            <p><Link to='/contact'>Our Contacts</Link></p>                         
                         </div>
                     </div>
 
                     <div className="col-md-2">
                         <div className="f-col">
                             <p className='text-light'>Community</p>
-                            <p>News</p>
-                            <p>Blog</p>
-                            <p>Our Offices</p>                        
+                            <p><Link to='#'>News</Link></p>
+                            <p><Link to='#'>Blog</Link></p>
+                            <p><Link to='/contact'>Our Offices</Link></p>                        
                         </div>
                     </div>
 
