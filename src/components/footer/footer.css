@@ -40,3 +40,12 @@ a:hover{
     padding-bottom: 1rem;
     color: rgb(164, 162, 162);
 }
+.text-light{
+    position: relative;
+}
+.scroll-to-top-btn{
+    position: absolute;
+    bottom: 5rem;
+    right: 2px;
+    font-size: 30px;
+}
