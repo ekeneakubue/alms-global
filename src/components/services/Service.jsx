@@ -7,63 +7,63 @@ export default function Service() {
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <div className='service-title'>Our Services</div>
+                    <div className='service-title'>Discover</div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-md-4 service-col-light" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-light">
-                        <i class="bi bi-bank2 text-danger"></i>
-                        <div>Study<br/>Work Permits</div>
+                        <i class="bi bi-people-fill text-success"></i>
+                        <div>About Us</div>
                     </div>
                 </div>
                 <div className="col-md-4 service-col-white" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-white">
-                        <i class="bi bi-airplane-engines-fill text-danger"></i>
-                        <div>Visitor<br/>Travel Visas</div>
+                        <i class="bi bi-mortarboard-fill text-success"></i>
+                        <div>Admissions</div>
                     </div>                    
                 </div>
                 <div className="col-md-4 service-col-light" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-light">
-                        <i class="bi bi-amd text-danger"></i>
-                        <div>Refugee<br/>Protected Person</div>
+                        <i class="bi bi-amd text-success"></i>
+                        <div>Campus Life</div>
                     </div>
                 </div>               
                 <div className="col-md-4 service-col-white" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-white">
-                        <i class="bi bi-people-fill text-danger"></i>
-                        <div>Family<br/>Spousal Sponsorship</div>
+                        <i class="bi bi-ticket-detailed-fill text-success"></i>
+                        <div>Research Policy</div>
                     </div>                    
                 </div>                
                 <div className="col-md-4 service-col-light" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-light">
-                        <i class="bi bi-unity text-danger"></i>
-                        <div>Express Entry</div>
+                        <i class="bi bi-unity text-success"></i>
+                        <div>Alumni</div>
                     </div>
                 </div>
                 <div className="col-md-4 service-col-white" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-white">
-                        <i class="bi bi-ticket-detailed-fill text-danger"></i>
-                        <div>PR Citizenship</div>
+                        <i class="bi bi-search text-success"></i>
+                        <div>Research</div>
                     </div>
                 </div>
 
                 <div className="col-md-4 service-col-light" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-light">
-                        <i class="bi bi-tools text-danger"></i>
-                        <div>Worker<br/>Business Programs</div>
+                        <i class="bi bi-bank2 text-success"></i>
+                        <div>Faculties</div>
                     </div>                    
                 </div>
                 <div className="col-md-4 service-col-white" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-white">
-                        <i class="bi bi-steam text-danger"></i>
-                        <div>Provincial Nominee<br/>Skilled Worker</div>  
+                        <i class="bi bi-steam text-success"></i>
+                        <div>Students Union</div>  
                     </div>                                      
                 </div>
                 <div className="col-md-4 service-col-light" data-aos="fade-up" data-aos-duration="2000">
                     <div className="service-bg-light" data-aos="fade-up" data-aos-duration="2000">
-                        <i class="bi bi-tencent-qq text-danger"></i>
-                        <div>TFW</div>
+                        <i class="bi bi-house-add-fill text-success"></i>
+                        <div>Medical Center</div>
                     </div>
                 </div>                
             </div>

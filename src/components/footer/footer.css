@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .footer{
-    padding-top: 2rem;
+    padding: 2rem 4rem 0rem;
+    background-color: #0d4811;
 }
 .f-col{
     padding: 1rem 0rem;
@@ -19,6 +25,9 @@ a:hover{
     color: white;
     font-weight: 500;
     text-decoration: none;
+}
+span a{
+    color: white;
 }
 .f-col .btn{
     margin: 1rem 0rem;
@@ -48,4 +57,10 @@ a:hover{
     bottom: 5rem;
     right: 2px;
     font-size: 30px;
+}
+
+@media(max-width:667px){
+    .footer{
+        padding: 1rem;
+    }
 }

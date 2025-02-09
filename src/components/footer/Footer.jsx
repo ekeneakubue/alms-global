@@ -32,36 +32,58 @@ export default function Footer() {
     };
 
   return (
-    <div className='container-fluid bg-dark'>
+    <div className='cokkk'>
         <div className="footer">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row text-light">
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <div className="f-col">
-                            <img src="images/ALMS-logo.png" alt="footer-logo" />
+                            <img src="images/logo.png" alt="footer-logo" />
                             <p>Subscribe to our Newsletter</p>
                             <label for="exampleInputEmail1">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>     
                             <div className='btn btn-outline-light'>Submit</div>
+
+                            <br /><br />
+                            <p className='text-light'>Stakeholders</p>
+                            <p><Link to='#' onClick={scrollToTop}>NUC</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Ministry of Education</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>TETFund</Link></p>
                         </div>
                     </div>
                     
                     <div className="col-md-3">
                         <div className="f-col">
-                            <p className='text-light'>Company</p>
-                            <p><Link to='/' onClick={scrollToTop}>Home</Link></p>
+                            <p className='text-light'>General Information</p>
                             <p><Link to='/about' onClick={scrollToTop}>About Us</Link></p>
-                            <p><Link to='/services' onClick={scrollToTop}>Our Services</Link></p>
-                            <p><Link to='/contact' onClick={scrollToTop}>Our Contacts</Link></p>                         
+                            <p><Link to='#' onClick={scrollToTop}>International Collaboration</Link></p>
+                            <p><Link to='/contact' onClick={scrollToTop}>Contact Us</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Scholarship</Link></p>
+
+                            
+                            <br /><br />
+                            <p className='text-light'>Careers</p>
+                            <p><Link to='#' onClick={scrollToTop}>Vacancies</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Recuitments</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Awards</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Events</Link></p>                       
                         </div>
                     </div>
 
-                    <div className="col-md-2">
+                    <div className="col-md-3">
                         <div className="f-col">
-                            <p className='text-light'>Community</p>
-                            <p><Link to='#' onClick={scrollToTop}>News</Link></p>
-                            <p><Link to='#' onClick={scrollToTop}>Blog</Link></p>
-                            <p><Link to='/contact' onClick={scrollToTop}>Our Offices</Link></p>                        
+                            <p className='text-light'>Students</p>
+                            <p><Link to='#' onClick={scrollToTop}>Course Information</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Academic Calender</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Technical Services</Link></p>                        
+                            <p><Link to='#' onClick={scrollToTop}>Portal</Link></p>
+                            
+                            <br /><br />
+                            <p className='text-light'>News</p>
+                            <p><Link to='#' onClick={scrollToTop}>Media Highlights</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Stories</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Institution Based Research</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>National Research Fund</Link></p>  
                         </div>
                     </div>
 
@@ -70,16 +92,23 @@ export default function Footer() {
                             <p className='text-light'>Contacts</p>
                             <div className='foot-aside'>
                                 <i class="bi bi-geo-alt text-danger"></i>
-                                <p>50 Crowther Ln Suite 140 Fredericton, NB E3C 0J1, Canada</p>
+                                <p>OFEME-OHUHU, PMB 7324, umuahia north LGA, Abia state, Nigeria.</p>
                             </div>
                             <div className='foot-aside'>
                                 <i class="bi bi-telephone text-danger"></i>
-                                <p>+1 506 897 0363</p>
+                                <p>0800000000</p>
                             </div>
                             <div className='foot-aside'>
                                 <i class="bi bi-envelope text-danger"></i>
-                                <p>almsglobalimmigration9@gmail.com</p>
+                                <p>info@fceofemeohuhu.edu.ng</p>    
                             </div>
+
+                            <br /><br />
+                            <p className='text-light'>Alumni</p>
+                            <p><Link to='#' onClick={scrollToTop}>i-Transcript</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Campus Life</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Alumni Update</Link></p>
+                            <p><Link to='#' onClick={scrollToTop}>Health Services</Link></p>  
                         </div>
                     </div>
                     {isVisible && (
@@ -89,7 +118,7 @@ export default function Footer() {
                     )}
                     <hr/>
                     <div className="col-md-12"><hr className='bg-secondary'/>
-                        <div className='copy'>Copyright 2023 &copy; ALMS Global Immigration Consultant Inc. All rights reserved.</div>
+                        <div className='copy'>Copyright 2025 &copy; Federal College of Education, Ofeme Ohuhu. All rights reserved. &nbsp;&nbsp;| &nbsp;&nbsp; Powered by <span><a href="https://expertmediasolution.com/" target='_blank'>Expert Media Solutions</a></span></div>
                     </div>
                 </div>
             </div>

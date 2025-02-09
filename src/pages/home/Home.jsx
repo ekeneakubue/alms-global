@@ -16,40 +16,14 @@ export default function Home() {
     <div>      
       <div className="hero-section">
         <div className="hero-text">
-          <h2 data-aos="fade-up" data-aos-duration="2000">Welcome to Global Immigration Consultant Inc</h2>
+          <h2 data-aos="fade-up" data-aos-duration="2000">Welcome to Federal College of Education, Ofeme Ohuhu</h2>
           <p id="p-block"data-aos="fade-up" data-aos-duration="2000">
-            Study/Work Permit 
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            Visitor/Travel Visas 
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            TFW  
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            IMP
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            LMIA                                    
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            PGWP<br/>            
-            Express Entry  
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            Provincial Nominee/Skilled Worker/Business Programs
-            <br/>
-            PR
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            Citizenship
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            Naturalization
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            AIP
-            &nbsp;<span className='vert'>|</span>&nbsp;
-            Family/Spousal Sponsorship
-            <br/>
-            H & C Refugee/Protected Person
+          <i class="bi bi-award-fill text-success"></i> To Educate to Liberate the Mind &nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="bi bi-award-fill text-success"></i> Committed to Excellence in Teacher Education
           </p>
           <p id="p-none" data-aos="fade-up" data-aos-duration="2000">
-            Study/Work Permit, Visitor/Travel Visas, TFW, IMP, LMIA, PGWP,
-            Express Entry, Provincial Nominee/Skilled Worker/Business Programs,
-            PR, Citizenship, Naturalization, AIP, Family/Spousal Sponsorship,
-            H & C Refugee/Protected Person, etc.
+          <i class="bi bi-award-fill text-success"></i> To Educate To Liberate the Mind <br />
+          <i class="bi bi-award-fill text-success"></i> Committed to Excellence in Teacher Education
           </p>
         </div>
       </div>
