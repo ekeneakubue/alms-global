@@ -38,7 +38,7 @@ export default function Footer() {
                 <div className="row text-light">
                     <div className="col-md-3">
                         <div className="f-col">
-                            <img src="images/logo.png" alt="footer-logo" />
+                            <img src="./images/logo.png" alt="footer-logo" />
                             <p>Subscribe to our Newsletter</p>
                             <label for="exampleInputEmail1">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>     

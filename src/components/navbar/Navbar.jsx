@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="navbar">
         <div className="container-fluid dropdown">
             <div className="mylogo">
-                <div className='logo'><img src="logo.png" alt="logo" /></div>
+                <div className='logo'><img src="./logo.png" alt="logo" /></div>
                 <h2>FCE Ofeme</h2>
             </div>
             <button className="toggle-button" onClick={toggleNavbar}>
