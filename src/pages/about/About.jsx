@@ -18,7 +18,7 @@ export default function About() {
             </div>
             <div className="col-md-6">
               <div className="about-us">
-                <img src="images/11.jfif" alt="canada" className='img-fluid' />
+                <img src="./images/11.jfif" alt="canada" className='img-fluid' />
               </div>
               <div className="about-us-mobile">
                 <img src="images/11.jfif" alt="canada" className='img-fluid' data-aos="fade-up" data-aos-duration="2000"/>
